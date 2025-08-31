@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halli Galli Solo</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="controls">
+        <div id="game-status">Remaining Card: 0</div>
+        <button class="control-button" onclick="onReset()">Reset</button>
+        <button class="control-button" onclick="onDrawCards()">Draw Cards</button>
+    </div>
+
+    <div id="table">
+        <div id="card-1" class="card">
+            <img src="images/apple.png">
+            <img src="images/apple.png">
+            <img src="images/apple.png">
+            <img src="images/apple.png">
+            <img src="images/apple.png">
+        </div>
+        <div id="card-2" class="card">
+            <img src="images/grape.png">
+            <img src="images/grape.png">
+            <img src="images/grape.png">
+            <img src="images/grape.png">
+            <img src="images/grape.png">
+        </div>
+        <div id="card-3" class="card">
+            <img src="images/strawberry.png">
+            <img src="images/strawberry.png">
+            <img src="images/strawberry.png">
+            <img src="images/strawberry.png">
+            <img src="images/strawberry.png">
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
